@@ -6,8 +6,11 @@
   "author": "Multicam <jmgiorgi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.5",
     "sass": "^1.26.11",
-    "snowpack": "^2.11.1"
+    "snowpack": "^2.11.1",
+    "tailwindcss": "^1.8.10"
   },
   "dependencies": {
     "canvas-confetti": "^1.2.0",

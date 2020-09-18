@@ -1,30 +1,4 @@
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: poppins, sans-serif;
-}
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
+@import 'reset';
 
 .hidden {
   display: none;
@@ -68,12 +42,13 @@ img {
     line-height: 0.8em;
   }
 }
+
 audio {
   max-width: 100%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 1em;
@@ -85,7 +60,7 @@ button {
   border: none;
   border-radius: 2px;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
   margin: 0 0 1em 0;
   padding: 0.5em 0.7em 0.6em 0.7em;
@@ -113,7 +88,7 @@ canvas {
 }
 
 code {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
@@ -129,7 +104,7 @@ div#links {
 
 h1 {
   border-bottom: 1px solid #ccc;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 0 0 0.8em 0;
   padding: 0 0 0.2em 0;
@@ -260,7 +235,7 @@ strong {
 
 textarea {
   resize: none;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 video {
@@ -286,6 +261,7 @@ ul {
     font-size: 24px;
   }
 }
+
 @media screen and (max-width: 550px) {
   button:active {
     background-color: darkRed;
@@ -295,11 +271,15 @@ ul {
     font-size: 22px;
   }
 }
+
 @media screen and (max-width: 450px) {
   h1 {
     font-size: 20px;
   }
 }
+
+
+
 #img {
   display: block;
   margin: auto;
@@ -307,3 +287,10 @@ ul {
   width: 128px;
   padding: 2rem;
 }
+
+//#canvas {
+//  display: block;
+//  margin: 2rem auto;
+//  width: 540px;
+//  height: 540px;
+//}
