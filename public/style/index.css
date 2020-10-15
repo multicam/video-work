@@ -26,6 +26,18 @@ img {
   height: auto;
 }
 
+.h4 {
+  height: 2rem;
+}
+
+.p1 {
+  padding: 0.5rem;
+}
+
+.p2 {
+  padding: 1rem;
+}
+
 .hidden {
   display: none;
 }
@@ -62,21 +74,13 @@ img {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1000px) {
-  /* hack! to detect non-touch devices */
-  div#links a {
-    line-height: 0.8em;
-  }
-}
 audio {
   max-width: 100%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   margin: 0;
-  padding: 1em;
+  padding: 0;
   word-break: break-word;
 }
 
@@ -150,12 +154,6 @@ h3 {
 
 li {
   margin: 0 0 0.4em 0;
-}
-
-html {
-  /* avoid annoying page width change
-  when moving from the home page */
-  overflow-y: scroll;
 }
 
 img {
@@ -260,7 +258,6 @@ strong {
 
 textarea {
   resize: none;
-  font-family: "Roboto", sans-serif;
 }
 
 video {
@@ -273,37 +270,4 @@ video {
 
 ul {
   margin: 0 0 0.5em 0;
-}
-
-@media screen and (max-width: 650px) {
-  .highlight {
-    font-size: 1em;
-    margin: 0 0 20px 0;
-    padding: 0.2em 1em;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 550px) {
-  button:active {
-    background-color: darkRed;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
-}
-@media screen and (max-width: 450px) {
-  h1 {
-    font-size: 20px;
-  }
-}
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
 }

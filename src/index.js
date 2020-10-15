@@ -14,17 +14,17 @@ confetti.create(canvas, {
     useWorker: true,
 })({ particleCount: 200, spread: 200 });
 
-const snapshotButton = document.querySelector('button#snapshot');
-const filterSelect = document.querySelector('select#filter');
-
-snapshotButton.onclick = function() {
-    canvas.className = filterSelect.value;
-    canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
-};
-
-filterSelect.onchange = function() {
-    video.className = filterSelect.value;
-};
+// const snapshotButton = document.querySelector('button#snapshot');
+// const filterSelect = document.querySelector('select#filter');
+//
+// snapshotButton.onclick = function() {
+//     canvas.className = filterSelect.value;
+//     canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+// };
+//
+// filterSelect.onchange = function() {
+//     video.className = filterSelect.value;
+// };
 
 const constraints = {
     audio: false,
